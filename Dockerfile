@@ -1,6 +1,6 @@
 FROM node:8-alpine
 
-RUN npm install -g @angular/cli
+RUN npm install -g @angular/cli@v6-lts
 
 WORKDIR /project
 
